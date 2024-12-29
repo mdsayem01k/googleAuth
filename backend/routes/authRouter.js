@@ -6,6 +6,6 @@ router.get('/test',(req,res)=>{
     res.send('test pass');
 })
 
-router.post('/googlelogin',googleLogin)
+router.get('/google',googleLogin)
 
 module.exports=router;
